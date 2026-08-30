@@ -9,6 +9,9 @@ class Animal {
 	set species(species){
 		this._species=species;
 	}
+	makeSound(){
+		return `The ${this._species} makes a sound`
+	}
 }
 
 class Dog extends Animal {
